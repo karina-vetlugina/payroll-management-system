@@ -1,0 +1,62 @@
+# Ignore build and output directories
+bin/
+target/
+out/
+build/
+
+# Ignore compiled class files
+*.class
+
+# Ignore package files
+*.jar
+*.war
+*.ear
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.iml
+*.classpath
+*.project
+*.settings/
+*.factorypath
+
+# Ignore Maven/Gradle files
+.mvn/
+target/
+build/
+.gradle/
+!gradle-wrapper.jar
+
+# Ignore macOS system files
+.DS_Store
+__MACOSX/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+*.cache
+*.swp
+*.swo
+
+# Ignore user-specific files
+*.user
+*.suo
+
+# Ignore build and package manager files
+*.properties
+*.xml
+*.yaml
+*.yml
+
+# Ignore configuration and environment files
+*.json
+application*.properties
+application*.yml
+application*.yaml
+secrets.json
+
+# Ignore generated text files and .gitignore itself
+*.txt
+!.gitignore
